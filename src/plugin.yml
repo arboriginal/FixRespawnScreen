@@ -2,6 +2,10 @@ name: FixRespawnScreen
 description: Fix the respawn screen bugs (chunk Load/Unload infinite loop + invisible map).
 version: 0.1
 
+author: arboriginal
+website: https://www.spigotmc.org/resources/fixrespawnscreen.71330/
+dev-url: https://github.com/arboriginal/FixRespawnScreen
+
 depend: [ ]
 softdepend: [ ]
 
