@@ -1,0 +1,21 @@
+name: FixRespawnScreen
+description: Fix the respawn screen bugs (chunk Load/Unload infinite loop + invisible map).
+version: 0.1
+
+depend: [ ]
+softdepend: [ ]
+
+api-version: 1.14
+database: false
+
+main: me.arboriginal.FixRespawnScreen.Main
+
+commands:
+  frs-reload:
+    description: Reload FixRespawnScreen configuration
+    permission: frs.reload
+
+permissions:
+  frs.reload:
+    description: Allows to reload the configuration
+    default: op
